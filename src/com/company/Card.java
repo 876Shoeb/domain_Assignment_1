@@ -1,6 +1,16 @@
 package com.company;
 
-public class Card {
+public class kyaad extends Main{
+    private int kyaadnum;
+    private double Balance;
+    private int Pin;
+    private boolean Status;
+
+}
+
+
+
+/*public class Card extends Main {
     private int CardNum;
     private double Balance;
     private int Pin;
@@ -9,11 +19,11 @@ public class Card {
 
 
 public Card(){
-    public void setCardNum(int cardnum){
+    public void setCardNum(){
             this.CardNum = cardnum;
                     }
         public void getCardNum(){
-            System.out.println("CardNum: " + this.CardNum);
+            System.out.println("cardNum: " + this.cardNum);
         }
 
         public void setBalance(double balance){
@@ -35,5 +45,5 @@ public Card(){
         public void getStatus(){
             System.out.println("Status: " + this.status);
         }
-
+*/
 }

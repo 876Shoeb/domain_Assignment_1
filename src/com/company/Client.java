@@ -1,6 +1,16 @@
 package com.company;
 
-public class Client extends Main {
+public class customer extends Main{
+        private int idNum;
+        private String Firstname;
+        private String Lastname;
+        private int Age;
+        kyaad kyaad;
+}
+
+
+
+/*public class Client extends Main {
         private int idNum;
         private String Firstname;
         private String Lastname;
@@ -42,12 +52,12 @@ public class Client extends Main {
            public void getAge(){
                System.out.println("Age: " + this.Age);
            }
-            public void setCard(Card){
-                this.Card = Card;
+            public void setCard(){
+                this.Card = card;
             }
             public void getCard(){
-                System.out.println("Card: " + this.Card);
+                System.out.println("card: " + this.Card);
             }
         }
-    }
+    }*/
 }
