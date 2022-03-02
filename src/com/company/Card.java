@@ -1,7 +1,7 @@
 package com.company;
 
-public class card extends Main{
-    private int card;
+public class Card extends Main{
+    private int cardnum;
     private double Balance;
     private int Pin;
     private boolean Status;
@@ -45,5 +45,5 @@ public Card(){
         public void getStatus(){
             System.out.println("Status: " + this.status);
         }
-*/
-}
+
+}*/

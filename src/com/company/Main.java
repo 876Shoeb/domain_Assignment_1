@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        class customer {
+        class Client {
             private String Firstname;
             private String Lastname;
-            private String card;
+            private String cardnum;
             public void Firstname() {
                 System.out.println("Ford");
             }
@@ -17,19 +17,19 @@ public class Main {
 
         }
 
-        class card extends client{
-            private String card = "87642";
+        class Card extends Client{
+            private String cardnum = "87642";
 
             public static void main(String[] args) {
-                customer myObj1 = new client();
-                card myObj = new card();
+                Client myObj1 = new Client();
+                Card myObj = new Card();
                 myObj1.Firstname();
                 myObj1.Lastname();
-                myObj.card();
-                System.out.println(myObj1.Firstname + " " + myObj1.Lastname + " " + myObj1.card);
+                myObj.cardnum();
+                System.out.println(myObj1.Firstname + " " + myObj1.Lastname + " " + myObj.cardnum);
             }
 
-            private void card() {
+            private void cardnum() {
             }
         }
 
@@ -38,24 +38,6 @@ public class Main {
 
 
 
-/*public class Main {
-
-    public static void main(String[] args) {
-
-        Client client = new Client();
-        Card card = new Card();
-       client.setName();
-       client.getName();
-
-
-Main myObj1 = new Client(/*45678, "Shoeb" "Harris" "30"*/);
-        System.out.println("idNum: " + myObj.idNum, "Name: " + myObj.Firstname + " " + myObj.Lastname,
-                "Age: " + myObj.Age, /*insert card info*/  );
 
 
 
-
-   }
-
-}
-*/

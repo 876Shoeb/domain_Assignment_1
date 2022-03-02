@@ -1,11 +1,11 @@
 package com.company;
 
-public class client extends Main{
+public class Client extends Main{
         private int idNum;
         private String Firstname;
         private String Lastname;
         private int Age;
-        int card;
+        Card card;
 }
 
 
@@ -59,5 +59,5 @@ public class client extends Main{
                 System.out.println("card: " + this.Card);
             }
         }
-    }*/
-}
+    }
+}*/
