@@ -1,11 +1,11 @@
 package com.company;
 
-public class customer extends Main{
+public class client extends Main{
         private int idNum;
         private String Firstname;
         private String Lastname;
         private int Age;
-        kyaad kyaad;
+        int card;
 }
 
 

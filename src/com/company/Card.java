@@ -1,7 +1,7 @@
 package com.company;
 
-public class kyaad extends Main{
-    private int kyaadnum;
+public class card extends Main{
+    private int card;
     private double Balance;
     private int Pin;
     private boolean Status;

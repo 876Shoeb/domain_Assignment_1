@@ -7,7 +7,7 @@ public class Main {
         class customer {
             private String Firstname;
             private String Lastname;
-            private String kyaadnum;
+            private String card;
             public void Firstname() {
                 System.out.println("Ford");
             }
@@ -17,19 +17,19 @@ public class Main {
 
         }
 
-        class kyaad extends customer{
-            private String kyaadnum = "87642";
+        class card extends client{
+            private String card = "87642";
 
             public static void main(String[] args) {
-                customer myObj1 = new customer();
-                kyaad myObj = new kyaad();
+                customer myObj1 = new client();
+                card myObj = new card();
                 myObj1.Firstname();
                 myObj1.Lastname();
-                myObj.kyaadnum();
-                System.out.println(myObj1.Firstname + " " + myObj1.Lastname + " " + myObj1.kyaadnum);
+                myObj.card();
+                System.out.println(myObj1.Firstname + " " + myObj1.Lastname + " " + myObj1.card);
             }
 
-            private void kyaadnum() {
+            private void card() {
             }
         }
 
